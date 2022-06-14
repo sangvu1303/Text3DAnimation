@@ -42,7 +42,7 @@ animation: animate 25s linear infinite;
     line-height: 0.5em;
     transform-style: preserve-3d;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);
+    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(80px);
 }
 .container .box span i:nth-child(1) {
     font-size: initial;
