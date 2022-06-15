@@ -19,8 +19,14 @@ body {
     align-items: center;
 }
 .container .box {
-transform-style: preserve-3d;
-animation: animate 25s linear infinite;
+    transform-style: preserve-3d;
+    animation: animate 15s linear infinite;
+    animation-play-state: running;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.container .box:hover {
+    animation-play-state: paused;
 }
 @keyframes animate {
     0% {
